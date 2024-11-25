@@ -8,7 +8,7 @@ import java.io.PrintStream;
 class LinearprobingjavaFinalexample 
 {
 
-    // List of 50 random words (group list)
+    // List of 50 random words (group list) can be called on depending on the amount called
     static String[] wordsList = 
     {
         "hystazarin", "mules", "rebaled", "hereditaments", "apodioxis", "prefeudal",
@@ -98,6 +98,7 @@ class LinearprobingjavaFinalexample
         {
             System.out.println(i + "\t" + arr[i] + "\t" + collisions[i]);
         }
+        System.out.println("Hello");
     }
 
     // Searches for the random word and uses nano time to search hash table for how long it takes to be found
@@ -144,32 +145,32 @@ class LinearprobingjavaFinalexample
             // Hash table sizes
 
             //Hash table prime .07
-            int S = 1000;//testsize
-            //int S = 765211;//table size
+            //int S = 1000;//testsize
+            int S = 765211;//table size
             int[] hashTablePrime7 = new int[S];
             int[] collisionPrime7 = new int[S];
             Arrays.fill(hashTablePrime7, -1);
             Arrays.fill(collisionPrime7, 0);
 
             //Hash table prime .05
-            int H = 5;//testsizze
-            // int H = 998651;//table size
+            //int H = 5;//testsizze
+             int H = 998651;//table size
             int[] hashTablePrime5 = new int[H];
             int[] collisionPrime5 = new int[H];
             Arrays.fill(hashTablePrime5, -1);
             Arrays.fill(collisionPrime5, 0);
 
             //Hash table nonprime .07
-            int K = 6;//test size
-            //int K = 689900;//table size
+            //int K = 6;//test size
+            int K = 689900;//table size
             int[] hashTableNonPrime7 = new int[K];
             int[] collisionNonPrime7 = new int[K];
             Arrays.fill(hashTableNonPrime7, -1);
             Arrays.fill(collisionNonPrime7, 0);
 
             //Hash table nonprime .05
-            int O = 8;//test size
-            //int O = 998654;//table size
+            //int O = 8;//test size
+            int O = 998654;//table size
             int[] hashTableNonPrime5 = new int[O];
             int[] collisionNonPrime5 = new int[O];
             Arrays.fill(hashTableNonPrime5, -1);
@@ -184,7 +185,7 @@ class LinearprobingjavaFinalexample
             ArrayList<String> wordsList = new ArrayList<>();
             try 
             {
-                Scanner in = new Scanner(inputFile);
+                Scanner in = new Scanner(inputFile);//creating scanner to read file 
                 while (in.hasNextLine()) 
                 {
                     String word = in.nextLine();
