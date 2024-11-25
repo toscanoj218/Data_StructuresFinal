@@ -98,7 +98,6 @@ class LinearprobingjavaFinalexample
         {
             System.out.println(i + "\t" + arr[i] + "\t" + collisions[i]);
         }
-        System.out.println("Hello");
     }
 
     // Searches for the random word and uses nano time to search hash table for how long it takes to be found
