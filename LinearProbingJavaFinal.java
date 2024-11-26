@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 
-class LinearprobingjavaFinalexample 
+class LinearprobingjavaFinal
 {
 
     // List of 50 random words (group list) can be called on depending on the amount called
@@ -107,6 +107,7 @@ class LinearprobingjavaFinalexample
         int asciiValue = calculateAscii(word);  // convert the word to ascii value 
         int index = asciiValue % hashTable.length;
         boolean found = false;
+        int searchCollisions = 0; // Initialize the collision counter for this search
 
         for (int i = 0; i < hashTable.length; i++) 
         {
@@ -114,18 +115,22 @@ class LinearprobingjavaFinalexample
             if (hashTable[t] == asciiValue) 
             {
                 found = true;
+                searchCollisions = i + 1; // If we found the word, the number of collisions is the number of probes
                 break;
             }
+            searchCollisions++; // Increment the collision counter for each probe
         }
+
         long endTime = System.nanoTime();  // set end time
         long timeTaken = (endTime - startTime);  // get the total time by subtracting the end time with start time 
+
         if (found) 
         {
-            System.out.println(word + " found in " + timeTaken + " nanoseconds"); // display the word and time
+            System.out.println(word + " found in " + timeTaken + " nanoseconds with " + searchCollisions + " collisions");
         } 
-        else
+        else 
         {
-            System.out.println(word + " not found"); // if not found
+           
         }
     }
 
@@ -144,32 +149,32 @@ class LinearprobingjavaFinalexample
             // Hash table sizes
 
             //Hash table prime .07
-            int S = 1000;//testsize
             //int S = 765211;//table size
+            int S = 1000;//testsize
             int[] hashTablePrime7 = new int[S];
             int[] collisionPrime7 = new int[S];
             Arrays.fill(hashTablePrime7, -1);
             Arrays.fill(collisionPrime7, 0);
 
             //Hash table prime .05
-            int H = 2000;//testsizze
             //int H = 998651;//table size
+            int H = 2000;//testsizze
             int[] hashTablePrime5 = new int[H];
             int[] collisionPrime5 = new int[H];
             Arrays.fill(hashTablePrime5, -1);
             Arrays.fill(collisionPrime5, 0);
 
             //Hash table nonprime .07
-            int K = 3000;//test size
             //int K = 689900;//table size
+            int K = 3000;//test size
             int[] hashTableNonPrime7 = new int[K];
             int[] collisionNonPrime7 = new int[K];
             Arrays.fill(hashTableNonPrime7, -1);
             Arrays.fill(collisionNonPrime7, 0);
 
             //Hash table nonprime .05
-            int O = 1500;//test size
             //int O = 998654;//table size
+            int O = 1500;//test size
             int[] hashTableNonPrime5 = new int[O];
             int[] collisionNonPrime5 = new int[O];
             Arrays.fill(hashTableNonPrime5, -1);
@@ -192,7 +197,6 @@ class LinearprobingjavaFinalexample
                 }
                 in.close();
             } 
-            //catch exception in case file can not be read
             catch (FileNotFoundException e) 
             {
                 System.out.println("File not found!");//displays if the file was not found
@@ -221,7 +225,6 @@ class LinearprobingjavaFinalexample
             System.out.println("\nWords to search in hashtable:");
             for (String word : randomWords) 
             {
-                System.out.println("Word: " + word);
                 searchWord(hashTablePrime7, collisionPrime7, word);
             }
 
@@ -240,3 +243,7 @@ class LinearprobingjavaFinalexample
         }
     }
 }
+
+
+
+

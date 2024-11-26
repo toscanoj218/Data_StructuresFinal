@@ -1000,7 +1000,6 @@ Index	Data	Collisions
 997	737	465609
 998	862	465608
 999	999	465607
-Hello
 Total Collisions: 465579661
 Maximum Collisions: 465627
 Average Collisions: 997.9971897949472
@@ -3008,7 +3007,6 @@ Index	Data	Collisions
 1997	1071	464835
 1998	862	464834
 1999	607	464833
-Hello
 Total Collisions: 929875656
 Maximum Collisions: 465358
 Average Collisions: 1993.242766562204
@@ -6016,7 +6014,6 @@ Index	Data	Collisions
 2997	1604	463799
 2998	1160	463798
 2999	1690	463797
-Hello
 Total Collisions: 1393098516
 Maximum Collisions: 465193
 Average Collisions: 2986.188015793738
@@ -7524,30 +7521,13 @@ Index	Data	Collisions
 1497	1141	465311
 1498	945	465310
 1499	1499	465309
-Hello
 Total Collisions: 697875075
 Maximum Collisions: 465492
 Average Collisions: 1495.9359740543691
 Empty Positions: 432
 
 Words to search in hashtable:
-Word: hystazarin
-hystazarin not found
-Word: mules
-mules not found
-Word: rebaled
-rebaled not found
-Word: hereditaments
-hereditaments found in 900 nanoseconds
-Word: apodioxis
-apodioxis not found
-Word: prefeudal
-prefeudal not found
-Word: galvanofaradization
-galvanofaradization not found
-Word: currachs
-currachs found in 22300 nanoseconds
-Word: gastrea
-gastrea found in 1500 nanoseconds
-Word: Resuscitated
-Resuscitated found in 900 nanoseconds
+hereditaments found in 400 nanoseconds with 1 collisions
+currachs found in 20700 nanoseconds with 391 collisions
+gastrea found in 1200 nanoseconds with 9 collisions
+Resuscitated found in 1000 nanoseconds with 4 collisions
