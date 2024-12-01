@@ -1,13 +1,12 @@
-import java.util.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.util.*;
 
-class LinearprobingjavaFinal
+class LinearProbingJavaFinal
 {
-
     // List of 50 random words (group list) can be called on depending on the amount called
     static String[] wordsList = 
     {
@@ -33,13 +32,14 @@ class LinearprobingjavaFinal
         return total;
     }
 
-    // Hashing using Linear Probing
+    // Hashing using Linear Probing (updated to always start at index 0)
     static void hashing(int[] table, int[] collisions, int tsize, String arr[], int N) 
     {
         int totalCollisions = 0;  // set to zero
         int maxCollisions = 0;    // set to 0
         int emptyPositions = tsize;  // set to table size
 
+        // Initialize table and collisions arrays
         for (int i = 0; i < tsize; i++) 
         {
             table[i] = -1;
@@ -48,32 +48,30 @@ class LinearprobingjavaFinal
 
         for (int i = 0; i < N; i++) 
         {
-            int hv = calculateAscii(arr[i]) % tsize;
-            if (table[hv] == -1) 
+            // Force the starting index to be 0
+            int hv = 0; // This forces all insertions to start at index 0
+
+            // Perform linear probing to find an empty slot
+            for (int j = 0; j < tsize; j++) 
             {
-                table[hv] = calculateAscii(arr[i]);
-            } 
-            else 
-            {
-                for (int j = 0; j < tsize; j++) 
+                int t = (hv + j) % tsize;  // Linear probing
+                if (table[t] == -1)  // Found an empty spot
                 {
-                    int t = (hv + j) % tsize;
-                    if (table[t] == -1) {
-                        table[t] = calculateAscii(arr[i]);
-                        collisions[t]++;
-                        totalCollisions++;
-                        emptyPositions--;
-                        break;
-                    } 
-                    else 
-                    {
-                        collisions[t]++;
-                        totalCollisions++;
-                    }
+                    table[t] = calculateAscii(arr[i]);
+                    collisions[t]++;
+                    totalCollisions++;
+                    emptyPositions--;
+                    break;  // Exit the loop once the word is inserted
+                } 
+                else 
+                {
+                    collisions[t]++;  // Increment collision count
+                    totalCollisions++;  // Increment total collisions
                 }
             }
         }
 
+        // Find the maximum number of collisions at any index
         for (int i = 0; i < tsize; i++) 
         {
             if (collisions[i] > maxCollisions) 
@@ -82,12 +80,15 @@ class LinearprobingjavaFinal
             }
         }
 
-        double avgCollisions = (double) totalCollisions / N; // get the average percentage of collisions
-        printArray(table, collisions); // display table and collisions
-        System.out.println("Total Collisions: " + totalCollisions); // display total collisions
-        System.out.println("Maximum Collisions: " + maxCollisions); // display maximum collisions
-        System.out.println("Average Collisions: " + avgCollisions); // display average collisions
-        System.out.println("Empty Positions: " + emptyPositions); // display empty positions
+        // Calculate average collisions
+        double avgCollisions = (double) totalCollisions / N;
+
+        // Print the final results
+        printArray(table, collisions);
+        System.out.println("Total Collisions: " + totalCollisions);
+        System.out.println("Maximum Collisions: " + maxCollisions);
+        System.out.println("Average Collisions: " + avgCollisions);
+        System.out.println("Empty Positions: " + emptyPositions);
     }
 
     // Display the hash table 
@@ -130,7 +131,7 @@ class LinearprobingjavaFinal
         } 
         else 
         {
-           
+            System.out.println(word + " not found after " + searchCollisions + " collisions");
         }
     }
 
@@ -148,40 +149,36 @@ class LinearprobingjavaFinal
 
             // Hash table sizes
 
-            //Hash table prime .07
-            //int S = 765211;//table size
-            int S = 1000;//testsize
+            // Hash table prime .07
+            int S = 765211; // table size
             int[] hashTablePrime7 = new int[S];
             int[] collisionPrime7 = new int[S];
             Arrays.fill(hashTablePrime7, -1);
             Arrays.fill(collisionPrime7, 0);
 
-            //Hash table prime .05
-            //int H = 998651;//table size
-            int H = 2000;//testsizze
+            // Hash table prime .05
+            int H = 998651; // table size
             int[] hashTablePrime5 = new int[H];
             int[] collisionPrime5 = new int[H];
             Arrays.fill(hashTablePrime5, -1);
             Arrays.fill(collisionPrime5, 0);
 
-            //Hash table nonprime .07
-            //int K = 689900;//table size
-            int K = 3000;//test size
+            // Hash table nonprime .07
+            int K = 689900; // table size
             int[] hashTableNonPrime7 = new int[K];
             int[] collisionNonPrime7 = new int[K];
             Arrays.fill(hashTableNonPrime7, -1);
             Arrays.fill(collisionNonPrime7, 0);
 
-            //Hash table nonprime .05
-            //int O = 998654;//table size
-            int O = 1500;//test size
+            // Hash table nonprime .05
+            int O = 998654; // table size
             int[] hashTableNonPrime5 = new int[O];
             int[] collisionNonPrime5 = new int[O];
             Arrays.fill(hashTableNonPrime5, -1);
             Arrays.fill(collisionNonPrime5, 0);
 
-            // Number of words to search (you can change this number to test different sizes)
-            int numWordsToSearch = 10;  // change to 10,20,30,40 or 50 for different search sizes
+            // Number of words to search you can change this number to test different sizes
+            int numWordsToSearch = 50;  // change to 10, 20, 30, 40, or 50 for different search sizes as required 
             String[] randomWords = Arrays.copyOfRange(wordsList, 0, numWordsToSearch);
 
             // Read the words from the words_a file
@@ -189,7 +186,7 @@ class LinearprobingjavaFinal
             ArrayList<String> wordsList = new ArrayList<>();
             try 
             {
-                Scanner in = new Scanner(inputFile);//creating scanner to read file 
+                Scanner in = new Scanner(inputFile);  // creating scanner to read file
                 while (in.hasNextLine()) 
                 {
                     String word = in.nextLine();
@@ -197,52 +194,72 @@ class LinearprobingjavaFinal
                 }
                 in.close();
             } 
-            catch (FileNotFoundException e) 
+
+            catch (FileNotFoundException e) //method to catch if the file could not be found
             {
-                System.out.println("File not found!");//displays if the file was not found
+                System.out.println("File not found!");  // displays if the file was not found
             }
 
             String[] words = wordsList.toArray(new String[0]);
-
-            // Hash the words into the hash tables
-            //display hashtable prime .07
+ 
+            // Display hash table prime .07
             System.out.println("Hash table prime number with load factor .7 after hashing:");
             hashing(hashTablePrime7, collisionPrime7, S, words, words.length);
 
-            //display hashtable prime .05
-            System.out.println("\nHash table prime number with load factor .5 after hashing:");
+/* 
+            // Display hash table prime .05
+            System.out.println("Hash table prime number with load factor .5 after hashing:");
             hashing(hashTablePrime5, collisionPrime5, H, words, words.length);
-
-            //display hashtable nonprime .07
-            System.out.println("\nHash table non-prime number with load factor .7 after hashing:");
+ */           
+ /*
+            // Display hash table Nonprime .07
+            System.out.println("Hash table Nonprime number with load factor .7 after hashing:");
             hashing(hashTableNonPrime7, collisionNonPrime7, K, words, words.length);
 
-            //display hashtable nonprime .05
-            System.out.println("\nHash table non-prime number with load factor .5 after hashing:");
+ */ 
+/*
+ 
+            // Display hash table Nonprime .05
+            System.out.println("Hash table Nonprime number with load factor .5 after hashing:");
             hashing(hashTableNonPrime5, collisionNonPrime5, O, words, words.length);
+*/
 
-            // Search for the words in my list depending on how many of them are called for
-            System.out.println("\nWords to search in hashtable:");
+            // display Searching for words in the hash tables
+            System.out.println("\nSearching for words in the hash tables:");
+ 
+            // Loop through the selected words and search for each one
             for (String word : randomWords) 
             {
-                searchWord(hashTablePrime7, collisionPrime7, word);
+                searchWord(hashTablePrime7, collisionPrime7, word);  // searches table .7 prime
             }
 
-        } 
-        catch (IOException e)//catches if the code can not put the data into the output file 
-        {
-            System.out.println("Error creating output file.");
-        } 
-        //ends the print to the txt file when all the data has been put in
-        finally  
-        {
-            if (out != null) 
+/*           
+            for (String word : randomWords) 
             {
-                out.close();  // Close the PrintStream when done
+                searchWord(hashTablePrime5, collisionPrime5, word);  // searches table .5 prime
             }
+
+            for (String word : randomWords) 
+            {
+                searchWord(hashTableNonPrime7, collisionNonPrime7, word);  // searches table .7 nonprime
+            }
+*/ 
+/* 
+            for (String word : randomWords) 
+            {
+                searchWord(hashTableNonPrime5, collisionNonPrime5, word);  // searches table .5 nonprime
+            }
+*/            
+        } 
+        catch (IOException e) 
+        {
+            System.out.println("Error with output file.");
         }
     }
 }
+
+
+
 
 
 
