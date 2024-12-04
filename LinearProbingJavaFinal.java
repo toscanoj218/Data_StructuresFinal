@@ -124,11 +124,12 @@ class LinearProbingJavaFinal
 
         long endTime = System.nanoTime();  // set end time
         long timeTaken = (endTime - startTime);  // get the total time by subtracting the end time with start time 
-
+        //display the word if it was found
         if (found) 
         {
             System.out.println(word + " found in " + timeTaken + " nanoseconds with " + searchCollisions + " collisions");
         } 
+        //display if the word could not be found
         else 
         {
             System.out.println(word + " not found after " + searchCollisions + " collisions");
@@ -138,6 +139,25 @@ class LinearProbingJavaFinal
     // Main method with file redirection
     public static void main(String args[]) 
     {
+         // Read the words from the words_a file
+            File inputFile = new File("words_a.txt");
+            ArrayList<String> wordsList = new ArrayList<>();
+            try 
+            {
+                Scanner in = new Scanner(inputFile);  // creating scanner to read file
+                while (in.hasNextLine()) 
+                {
+                    String word = in.nextLine();
+                    wordsList.add(word);
+                }
+                in.close();
+            } 
+
+            catch (FileNotFoundException e) //method to catch if the file could not be found
+            {
+                System.out.println("File not found!");  // displays if the file was not found
+            }
+            
         // Create a PrintStream to write output to a file
         PrintStream out = null;
         try {
@@ -180,25 +200,6 @@ class LinearProbingJavaFinal
             // Number of words to search you can change this number to test different sizes
             int numWordsToSearch = 50;  // change to 10, 20, 30, 40, or 50 for different search sizes as required 
             String[] randomWords = Arrays.copyOfRange(wordsList, 0, numWordsToSearch);
-
-            // Read the words from the words_a file
-            File inputFile = new File("words_a.txt");
-            ArrayList<String> wordsList = new ArrayList<>();
-            try 
-            {
-                Scanner in = new Scanner(inputFile);  // creating scanner to read file
-                while (in.hasNextLine()) 
-                {
-                    String word = in.nextLine();
-                    wordsList.add(word);
-                }
-                in.close();
-            } 
-
-            catch (FileNotFoundException e) //method to catch if the file could not be found
-            {
-                System.out.println("File not found!");  // displays if the file was not found
-            }
 
             String[] words = wordsList.toArray(new String[0]);
  

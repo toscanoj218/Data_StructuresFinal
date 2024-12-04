@@ -1,14 +1,20 @@
 # Linear probing Java Final
 This is my Data structures Final on Linear probing. 
-We first have all of the java imports to insert whch help with a lot of built in classes for this code
-As we get into the main class linear probing java final we first have a list of words
-This is the list of 50words that was slected by the group these words will be used to be searched and they will be used to help find search time and collisions to find the words
-Also depending on how many you select there are 50 words so you can get any range of them by telling the code the amount you want
-ConvertAscii this method takes the words from out txt file words_a and we convert them to be a ascii value this works by adding up each letter corisponding to there ascii value. We do this because it is simpler for the code and we can not mismatch convert int[] with string[]
-hashing this method hashes our table and depending on what your hashing is it will varey since my project is on linear probing my hash table will hash by going down the table until a spot is found with in the table 
-This method also contains the counts for maxcollisions, totalcollisions, and emptypositions. These are like counters it will add one everytime that portion of the code is exicuted but in the case for empty positions instead of adding it will subtract one since it is based off the table size
-This code will also do the math for the collisions/emptyposition and displays each of there values depending on the size of the hashtable. Also we can get the average for collisions by taking the total collisions and dividing it by N
-The Printarray method is the way to display our data in rows and columns. The way this is set up is by having three rows Index Data and collisions these keept track of there names and below them is the actual data that is inserted So it will show the index the data that corresponds with the index and then the amount of collisions that have happend in the spot
-searchword this method will take the words from our 50 words list and depending on how many of them are called it will then search for that particular words they call for. Also the code will specifiy which hashtable it is searching from because each of them are diffrent since they have diffrent sizes
-This method uses nano time to keep track of the amount of time it takes to find each word at first we used milliseconds but that was to slow we need a time that counts really fast because this search is so fast to find the specific word
-Now we are at the main method this holds all of our call to methods and all of our outputs
+Also keep in mind all the tables do take a while to display since our table sizes are very large
+First I have all the imported java built in classes
+Next is the wordslist string that holds all 50 words our group chose to search for but this is just a string of all the words that can be called.
+The first method is to convert our words into ascii values and returns the total value of the word.
+The next method is Hashing this method will hash our table so all the words follow a certain prbing method and my code fllows linear probing.
+This method wil count the total collisions , maximum collisions,and empty positions.Then after keeping count it will calculate the average collisions. These will all be displayed at the end of the final hashtable.
+The method printarray will display the hashtable and all its data found with in like index,Data and collisions.
+The Searchword method is the part that we use to search for certain words within our hashtable so now those 50 words the group chose earlier will now help us because this code will take a word from that list and check if it can be found within my hashtable. Also it will display the word, nanotime to find the word, and how many collisions it took to find the word.
+Next is the main method which holds all the call functions for all the methods I created.
+first we have the print stream which will print all of our data into a txt file because it is much faster than printing to the terminal.
+We also have file input which reads the file and it also makes sure that if the file can not be read or found to report there is an error.
+Then we have our table sizes which are prime .7 765211, prime .5 998651, nonprime .7 689900 and Nonprime .5  998654. Each table has its own size based on its loadfactor and wheather its prime or not.
+after we have our numtosearchword which can be changed depending on how many words you want to search with. So we hvae to find 10,20,30,40 then 50 so this calles to that method and initlizes how many of those 50 words are being called.
+Next is all the displays for the hashtables so we have all the prime and Nonprime .7 and .5. These tables hold index, data, and collisions. At the end of every table they have all the collisions(max,totl,avg) and it will display empty positions.
+If you are trying to look at a specific table I would put in comments the tables I would not want to view because it takes less time to find the specific one rather than looking up every table.
+Finally theres all the displays for searchwords. These work by having all of them on or putting the ones you dont want in comments and the ones you do want to run not in comments. These also display all the prime and nonprime .7 and .5 its adjustable so you can check each table by having it on or off. But to view these fully you must make sure the corresponding hashtable displays too.
+Also at the end we have a catch IO exception to catch if none of this data will display to the txt file if not this will catch it and report a error.
+This is the full code for linear probing this readme file expalins how all the code works and any hidden features/ comments that can help the code run smoother.
