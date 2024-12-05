@@ -84,42 +84,43 @@ public class LinearProbingJavaFinal
         out.println("Empty Positions: " + emptyPositions);//display the empty positions
     }
 
-    // Method to search for specific words in the table
     static void searchWords(int[] table, String[] words, int tsize, int searchCount, PrintStream out) 
+{
+    out.println("\nSearch Results:"); // Display header for search results
+    out.println("Word                  | Search Time (ns)  | Probes"); // Add a new column for probes
+    out.println("-------------------------|--------------------|--------"); // Update separator for new column
+
+    // Search only the first 'searchCount' words
+    for (int i = 0; i < searchCount; i++) 
     {
-        out.println("\nSearch Results:");//display header for search results
-        out.println("Word                  | Search Time (ns)");//seperates the two column names word and searchtime
-        out.println("-------------------------|--------------------");//adds a | to seperate the data
+        String word = words[i];
+        int asciiValue = calculateAscii(word); // Convert the word into its ASCII value
+        int hashValue = asciiValue % tsize; // Key mod table size to find the key(word) hash value
 
-        // Search only the first 'searchCount' words
-        for (int i = 0; i < searchCount; i++) 
+        long startTime = System.nanoTime(); // Timer start
+
+        // Linear probing to find the word in the table
+        int j = 0;
+        boolean found = false;
+        int probes = 0; // Initialize probes counter
+        while (table[(hashValue + j) % tsize] != -1) 
         {
-            String word = words[i];
-            int asciiValue = calculateAscii(word);//calls method to convert our word into its asciivalue
-            int hashValue = asciiValue % tsize;//key mod table size to find the key(word) hashvalue
-
-            long startTime = System.nanoTime(); // timer start
-
-            // Linear probing to find the word in the table
-            int j = 0;
-            boolean found = false;
-            while (table[(hashValue + j) % tsize] != -1) 
+            probes++; // Increment probes counter
+            if (table[(hashValue + j) % tsize] == asciiValue) 
             {
-                if (table[(hashValue + j) % tsize] == asciiValue) 
-                {
-                    found = true; // Word is found
-                    break;//ends the loop
-                }
-                j++;
+                found = true; // Word is found
+                break; // Ends the loop
             }
-
-            long endTime = System.nanoTime(); // End the timer
-            long totaltime = endTime - startTime; // subtract the endtime and starttime to get the totaltime which is how long it took to find the word within our hashtable
-
-            // Display the results
-            out.printf("%-20s | %15d ns\n", word, totaltime);
+            j++;
         }
+
+        long endTime = System.nanoTime(); // End the timer
+        long totalTime = endTime - startTime; // Calculate total time
+
+        // Display the results
+        out.printf("%-20s | %15d ns  | %7d\n", word, totalTime, probes); // Print word, time, and probes
     }
+}
 
     // Main method
     public static void main(String[] args) 
@@ -127,7 +128,7 @@ public class LinearProbingJavaFinal
         ArrayList<String> wordsList = new ArrayList<>();
 
          // set to how many words you want to be found in search
-         int searchCount = 10; // Change this value to search 10, 20, or all 50 words
+         int searchCount = 50; // Change this value to search 10, 20, or all 50 words
 
          // 50 words to search made by group
          String[] searchWords = 
@@ -166,22 +167,22 @@ public class LinearProbingJavaFinal
 
         // Define the hash table size
         //prime .7
-        int S = 765211;  // size of table
+        int S = 765211;// size of table
         int[] hashTableprime7 = new int[S];
         int[] collisionCountsprime7 = new int[S];
 
         //prime.5
-        int H = 765211;  // size of table
+        int H = 998651;  // size of table
         int[] hashTableprime5 = new int[H];
         int[] collisionCountsprime5 = new int[H];
 
         //Nonprime.7
-        int K = 765211;  // size of table
+        int K = 689900;  // size of table
         int[] hashTablenonprime7 = new int[K];
         int[] collisionCountsnonprime7 = new int[K];
 
         //Nonprime.5
-        int O = 765211;  // size of table
+        int O = 998654;  // size of table
         int[] hashTablenonprime5 = new int[O];
         int[] collisionCountsnonprime5 = new int[O];
 
@@ -189,10 +190,11 @@ public class LinearProbingJavaFinal
         PrintStream out = null;
         try 
         {
-            out = new PrintStream(new FileOutputStream("outputprime7.txt"));//creates the file output that your data will end up in you can name your file to anything 
+            out = new PrintStream(new FileOutputStream("outputnonprime5.txt"));//creates the file output that your data will end up in you can name your file to anything 
             // Redirect System.out to file
             System.setOut(out);
-            System.out.println("Hashtable prime .7: ");
+            System.out.println("Hashtable nonprime .5: ");
+ /*              
             //prime.7
             // Hash words into the table using linear probing
             hashing(hashTableprime7, collisionCountsprime7, S, words, words.length);
@@ -202,7 +204,8 @@ public class LinearProbingJavaFinal
 
             // Print the statistics after the table is displayed
             displayCollisions(hashTableprime7, collisionCountsprime7, S, out);
-/* 
+*/
+ /* 
             //prime.5
             // Hash words into the table using linear probing
             hashing(hashTableprime5, collisionCountsprime5, H, words, words.length);
@@ -212,7 +215,8 @@ public class LinearProbingJavaFinal
 
             // Print the statistics after the table is displayed
             displayCollisions(hashTableprime5, collisionCountsprime5, H, out);
-             
+*/ 
+ /*             
             //nonprime.7
             // Hash words into the table using linear probing
             hashing(hashTablenonprime7, collisionCountsnonprime7, K, words, words.length);
@@ -222,7 +226,8 @@ public class LinearProbingJavaFinal
 
             // Print the statistics after the table is displayed
             displayCollisions(hashTablenonprime7, collisionCountsnonprime7, K, out);
-
+*/
+        
             //nonprime.5
             // Hash words into the table using linear probing
             hashing(hashTablenonprime5, collisionCountsnonprime5, O, words, words.length);
@@ -232,23 +237,26 @@ public class LinearProbingJavaFinal
 
             // Print the statistics after the table is displayed
             displayCollisions(hashTablenonprime5, collisionCountsnonprime5, O, out);
+ 
 
-*/
             //turn on or off to search for words in specific table sizes and prime or not primes
             // Perform the search for these words
+ /*      
             //prime.7
             searchWords(hashTableprime7, searchWords, S, searchCount, out);
-
-/* 
+*/
+ /* 
             //prime.5
             searchWords(hashTableprime5, searchWords, H, searchCount, out);
-
+*/
+/* 
             //nonprime.7
             searchWords(hashTablenonprime7, searchWords, K, searchCount, out);
-            
+ */ 
+           
             //nonprime.5
             searchWords(hashTablenonprime5, searchWords, O, searchCount, out);
-*/
+
         } 
         catch (FileNotFoundException e) 
         {
@@ -263,9 +271,3 @@ public class LinearProbingJavaFinal
         }
     }
 }
-
-
-
-
-
-
