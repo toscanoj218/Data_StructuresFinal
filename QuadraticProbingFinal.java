@@ -35,22 +35,62 @@ public class QuadraticProbingFinal {
         return false; // Hash table is full or probing limit reached
     }
 
-    public int search(String key) {
-        int hash = hashFunction(key);
+    public String searchWithDetails(String key) {
+        int hash = hashFunction(key); // Calculate the hash value
+        long startTime = System.nanoTime(); // Start timing
         for (int i = 0; i < tableSize; i++) {
-            int newIndex = (hash + i * i) % tableSize;
+            int newIndex = (hash + i * i) % tableSize; // Quadratic probing
             if (hashTable[newIndex] == null) {
-                return -1; // Key not found
+                long endTime = System.nanoTime(); // End timing
+                return String.format("Word: '%s', Probes: %d, Hash Value: %d, Search Time: %d ns, Collisions: %d",
+                        key, i + 1, hash, (endTime - startTime), i); // Key not found
             }
             if (hashTable[newIndex].equals(key)) {
-                return i + 1; // Probes required to find the key
+                long endTime = System.nanoTime(); // End timing
+                return String.format("Word: '%s', Probes: %d, Hash Value: %d, Search Time: %d ns, Collisions: %d",
+                        key, i + 1, hash, (endTime - startTime), i); // Key found
             }
         }
-        return -1; // Key not found after full traversal
+        long endTime = System.nanoTime(); // End timing
+        return String.format("Word: '%s', Probes: -1, Hash Value: %d, Search Time: %d ns, Collisions: %d",
+                key, hash, (endTime - startTime), tableSize); // Key not found after full traversal
     }
+    
 
     public int getTotalCollisions() {
         return totalCollisions;
+    }
+
+    public int getMaximumCollisions() {
+        int maxCollisions = 0;
+        for (int collisions : hashDistribution) {
+            if (collisions > maxCollisions) {
+                maxCollisions = collisions;
+            }
+        }
+        return maxCollisions;
+    }
+
+    public double getAverageCollisions() {
+        int nonEmptySlots = 0;
+        int totalCollisionsForAverage = 0;
+        for (int collisions : hashDistribution) {
+            if (collisions > 0) {
+                totalCollisionsForAverage += collisions;
+                nonEmptySlots++;
+            }
+        }
+        return nonEmptySlots == 0 ? 0.0 : (double) totalCollisionsForAverage / nonEmptySlots;
+    }
+
+    public int getEmptyPositions() {
+        int emptyCount = 0;
+        for (String slot : hashTable) {
+            if (slot == null) {
+                emptyCount++;
+            }
+        }
+        return emptyCount;
     }
 
     public static void runExperiment(String experimentName, List<String> fullWords, Map<Integer, List<String>> subsets,
@@ -67,7 +107,12 @@ public class QuadraticProbingFinal {
         }
         long endInsertTime = System.nanoTime();
         writer.printf("Total Insertion Time: %.2f ms\n", (endInsertTime - startInsertTime) / 1e6);
-        writer.printf("Total Collisions During Insertion: %d\n\n", hashing.getTotalCollisions());
+
+        // Collision and Hash Table Statistics
+        writer.printf("Total Collisions During Insertion: %d\n", hashing.getTotalCollisions());
+        writer.printf("Maximum Collisions: %d\n", hashing.getMaximumCollisions());
+        writer.printf("Average Collisions: %.2f\n", hashing.getAverageCollisions());
+        writer.printf("Empty Positions: %d\n\n", hashing.getEmptyPositions());
 
         // Process each subset in order
         for (Map.Entry<Integer, List<String>> entry : subsets.entrySet()) {
@@ -76,18 +121,8 @@ public class QuadraticProbingFinal {
 
             writer.printf("\nSubset: %d Words\n", subsetSize);
             for (String word : subset) {
-                long startSearchTime = System.nanoTime();
-                int probes = hashing.search(word);
-                long endSearchTime = System.nanoTime();
-                long searchTime = endSearchTime - startSearchTime;
-
-                if (probes > 0) {
-                    writer.printf("Word: '%s', Probes: %d, Search Time: %.2f µs, Collisions: %d\n",
-                            word, probes, searchTime / 1e3, probes - 1);
-                } else {
-                    writer.printf("Word: '%s', Probes: %d, Search Time: %.2f µs, Collisions: %d\n",
-                            word, -1, searchTime / 1e3, probes - 1);
-                }
+                String result = hashing.searchWithDetails(word);
+                writer.println(result);
             }
         }
         writer.println("==========================================\n");
