@@ -1,0 +1,1344 @@
+Experiment: Table Size: 765211, Load Factor: 0.7
+Table Size: 765211, Load Factor: 0.70
+
+Total Insertion Time: 27.70 ms
+Total Collisions During Insertion: 308583
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 4, Search Time: 9.30 µs, Collisions: 3
+Word: 'mules', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'hereditaments', Probes: 2, Search Time: 1.00 µs, Collisions: 1
+Word: 'apodioxis', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.90 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.30 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.70 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.90 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 1.00 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.80 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.90 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 1.10 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'well-manured', Probes: 6, Search Time: 1.40 µs, Collisions: 5
+Word: 'ovaliform', Probes: 2, Search Time: 1.00 µs, Collisions: 1
+Word: 'brontothere', Probes: 2, Search Time: 0.90 µs, Collisions: 1
+Word: 'Tricholoma', Probes: 2, Search Time: 0.80 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'fumed', Probes: 2, Search Time: 0.80 µs, Collisions: 1
+Word: 'tidecoach', Probes: 3, Search Time: 0.90 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.90 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 0.80 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 2, Search Time: 0.90 µs, Collisions: 1
+Word: 'asteer', Probes: 1, Search Time: 0.80 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'unificator', Probes: 3, Search Time: 0.90 µs, Collisions: 2
+Word: 'usurpment', Probes: 5, Search Time: 1.20 µs, Collisions: 4
+Word: 'Steeks', Probes: -1, Search Time: 0.70 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'well-manured', Probes: 6, Search Time: 1.40 µs, Collisions: 5
+Word: 'ovaliform', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'brontothere', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'Tricholoma', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fumed', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'tidecoach', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.80 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.80 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.80 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 12.90 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 4, Search Time: 1.10 µs, Collisions: 3
+Word: 'mules', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'hereditaments', Probes: 2, Search Time: 1.10 µs, Collisions: 1
+Word: 'apodioxis', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.70 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 1.00 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.40 µs, Collisions: -2
+Word: 'near-ushering', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'asteer', Probes: 1, Search Time: 0.70 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'unificator', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'usurpment', Probes: 5, Search Time: 1.20 µs, Collisions: 4
+Word: 'Steeks', Probes: -1, Search Time: 0.60 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'well-manured', Probes: 6, Search Time: 548.90 µs, Collisions: 5
+Word: 'ovaliform', Probes: 2, Search Time: 0.90 µs, Collisions: 1
+Word: 'brontothere', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'Tricholoma', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 17.60 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fumed', Probes: 2, Search Time: 1.20 µs, Collisions: 1
+Word: 'tidecoach', Probes: 3, Search Time: 0.80 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.60 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.60 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 0.80 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+==========================================
+
+Experiment: Table Size: 765211, Load Factor: 0.5
+Table Size: 765211, Load Factor: 0.50
+
+Total Insertion Time: 19.95 ms
+Total Collisions During Insertion: 308583
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 4, Search Time: 20.80 µs, Collisions: 3
+Word: 'mules', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'hereditaments', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'apodioxis', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.70 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.30 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.80 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.90 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 1.00 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'well-manured', Probes: 6, Search Time: 3.70 µs, Collisions: 5
+Word: 'ovaliform', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'brontothere', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'Tricholoma', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fumed', Probes: 2, Search Time: 1.20 µs, Collisions: 1
+Word: 'tidecoach', Probes: 3, Search Time: 1.00 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 0.90 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'asteer', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'unificator', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'usurpment', Probes: 5, Search Time: 1.00 µs, Collisions: 4
+Word: 'Steeks', Probes: -1, Search Time: 0.50 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 6, Search Time: 0.80 µs, Collisions: 5
+Word: 'ovaliform', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'brontothere', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'Tricholoma', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fumed', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'tidecoach', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.70 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 6.20 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 0.60 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 4, Search Time: 1.00 µs, Collisions: 3
+Word: 'mules', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'hereditaments', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'apodioxis', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 1.50 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.80 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.30 µs, Collisions: -2
+Word: 'near-ushering', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'asteer', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.80 µs, Collisions: 0
+Word: 'unificator', Probes: 3, Search Time: 0.90 µs, Collisions: 2
+Word: 'usurpment', Probes: 5, Search Time: 0.90 µs, Collisions: 4
+Word: 'Steeks', Probes: -1, Search Time: 0.50 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'well-manured', Probes: 6, Search Time: 0.90 µs, Collisions: 5
+Word: 'ovaliform', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'brontothere', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'Tricholoma', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fumed', Probes: 2, Search Time: 2.10 µs, Collisions: 1
+Word: 'tidecoach', Probes: 3, Search Time: 7.50 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'home-sickness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'untechnical', Probes: 5, Search Time: 0.40 µs, Collisions: 4
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+==========================================
+
+Experiment: Table Size: 998651, Load Factor: 0.7
+Table Size: 998651, Load Factor: 0.70
+
+Total Insertion Time: 15.67 ms
+Total Collisions During Insertion: 193464
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 1, Search Time: 2.70 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hereditaments', Probes: 3, Search Time: 0.60 µs, Collisions: 2
+Word: 'apodioxis', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'prefeudal', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.30 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.80 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'tidecoach', Probes: 3, Search Time: 0.60 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'faveolate', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'ingratiatory', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.50 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tidecoach', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hereditaments', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'apodioxis', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'prefeudal', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.40 µs, Collisions: -2
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'faveolate', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'ingratiatory', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.10 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tidecoach', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+==========================================
+
+Experiment: Table Size: 998651, Load Factor: 0.5
+Table Size: 998651, Load Factor: 0.50
+
+Total Insertion Time: 14.10 ms
+Total Collisions During Insertion: 193464
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 1, Search Time: 0.90 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hereditaments', Probes: 3, Search Time: 0.60 µs, Collisions: 2
+Word: 'apodioxis', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'prefeudal', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 2.00 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.70 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'tidecoach', Probes: 3, Search Time: 0.60 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'faveolate', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'ingratiatory', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.50 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tidecoach', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 14.90 µs, Collisions: 0
+Word: 'hereditaments', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'apodioxis', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'prefeudal', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.20 µs, Collisions: -2
+Word: 'near-ushering', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'faveolate', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'ingratiatory', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.20 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tidecoach', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'Sloane', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'evadible', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'tuffets', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'IX', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'dulias', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'home-sickness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+==========================================
+
+Experiment: Table Size: 689900, Load Factor: 0.7
+Table Size: 689900, Load Factor: 0.70
+
+Total Insertion Time: 15.83 ms
+Total Collisions During Insertion: 384154
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 1, Search Time: 0.60 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hereditaments', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'Resuscitated', Probes: -1, Search Time: 0.30 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 1.70 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.60 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'ovaliform', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'swoopers', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'fumed', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'tidecoach', Probes: 4, Search Time: 0.50 µs, Collisions: 3
+Word: 'Sloane', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 0.70 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.20 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'unificator', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'usurpment', Probes: 4, Search Time: 0.60 µs, Collisions: 3
+Word: 'Steeks', Probes: -1, Search Time: 0.10 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'ovaliform', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'fumed', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'tidecoach', Probes: 4, Search Time: 0.20 µs, Collisions: 3
+Word: 'Sloane', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 1.00 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.30 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hereditaments', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'Resuscitated', Probes: -1, Search Time: 0.40 µs, Collisions: -2
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'unificator', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'usurpment', Probes: 4, Search Time: 0.30 µs, Collisions: 3
+Word: 'Steeks', Probes: -1, Search Time: 0.00 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'well-manured', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'ovaliform', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'brontothere', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'fumed', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'tidecoach', Probes: 4, Search Time: 0.10 µs, Collisions: 3
+Word: 'Sloane', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 0.50 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.10 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+==========================================
+
+Experiment: Table Size: 689900, Load Factor: 0.5
+Table Size: 689900, Load Factor: 0.50
+
+Total Insertion Time: 14.75 ms
+Total Collisions During Insertion: 384154
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 1, Search Time: 4.60 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hereditaments', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'Resuscitated', Probes: -1, Search Time: 0.40 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 1.60 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.40 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'ovaliform', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'fumed', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'tidecoach', Probes: 4, Search Time: 0.50 µs, Collisions: 3
+Word: 'Sloane', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 0.40 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.20 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'unificator', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'usurpment', Probes: 4, Search Time: 0.60 µs, Collisions: 3
+Word: 'Steeks', Probes: -1, Search Time: 0.00 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'well-manured', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'ovaliform', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'fumed', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'tidecoach', Probes: 4, Search Time: 0.30 µs, Collisions: 3
+Word: 'Sloane', Probes: 1, Search Time: 0.80 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 0.80 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.20 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'mules', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rebaled', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hereditaments', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gastrea', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'Resuscitated', Probes: -1, Search Time: 0.20 µs, Collisions: -2
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'unificator', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'usurpment', Probes: 4, Search Time: 0.40 µs, Collisions: 3
+Word: 'Steeks', Probes: -1, Search Time: 0.10 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'well-manured', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'ovaliform', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'brontothere', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'fumed', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'tidecoach', Probes: 4, Search Time: 0.20 µs, Collisions: 3
+Word: 'Sloane', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 17, Search Time: 0.40 µs, Collisions: 16
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'theropodous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'IX', Probes: 4, Search Time: 0.60 µs, Collisions: 3
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'home-sickness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+==========================================
+
+Experiment: Table Size: 998654, Load Factor: 0.7
+Table Size: 998654, Load Factor: 0.70
+
+Total Insertion Time: 20.42 ms
+Total Collisions During Insertion: 191771
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 2, Search Time: 0.70 µs, Collisions: 1
+Word: 'mules', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rebaled', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'hereditaments', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.50 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.20 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 1.20 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tidecoach', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'Sloane', Probes: 4, Search Time: 0.40 µs, Collisions: 3
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 0.40 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.50 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.80 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'tidecoach', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Sloane', Probes: 4, Search Time: 0.30 µs, Collisions: 3
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 0.30 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'mules', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rebaled', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'hereditaments', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.10 µs, Collisions: -2
+Word: 'near-ushering', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.20 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tidecoach', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Sloane', Probes: 4, Search Time: 0.20 µs, Collisions: 3
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.00 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 0.30 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+==========================================
+
+Experiment: Table Size: 998654, Load Factor: 0.5
+Table Size: 998654, Load Factor: 0.50
+
+Total Insertion Time: 13.33 ms
+Total Collisions During Insertion: 191771
+
+
+Subset: 10 Words
+Word: 'hystazarin', Probes: 2, Search Time: 0.60 µs, Collisions: 1
+Word: 'mules', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rebaled', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'hereditaments', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.10 µs, Collisions: -2
+
+Subset: 20 Words
+Word: 'custumal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.50 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 1.30 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.40 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+
+Subset: 30 Words
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.40 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'tidecoach', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'Sloane', Probes: 4, Search Time: 0.80 µs, Collisions: 3
+Word: 'custumal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 0.60 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.30 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+
+Subset: 40 Words
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.30 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.40 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.50 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tidecoach', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Sloane', Probes: 4, Search Time: 0.30 µs, Collisions: 3
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 0.50 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+
+Subset: 50 Words
+Word: 'hystazarin', Probes: 2, Search Time: 0.30 µs, Collisions: 1
+Word: 'mules', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rebaled', Probes: 3, Search Time: 0.60 µs, Collisions: 2
+Word: 'hereditaments', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'apodioxis', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'prefeudal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'galvanofaradization', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'currachs', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'gastrea', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Resuscitated', Probes: -1, Search Time: 0.20 µs, Collisions: -2
+Word: 'near-ushering', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'asteer', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'bacteric', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'abwatts', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'rocktree', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'faveolate', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ingratiatory', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'unificator', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'usurpment', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'Steeks', Probes: -1, Search Time: 0.30 µs, Collisions: -2
+Word: 'hopple', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'well-manured', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'ovaliform', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'brontothere', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Tricholoma', Probes: 2, Search Time: 0.10 µs, Collisions: 1
+Word: 'incircumspectly', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'swoopers', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fumed', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'tidecoach', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Sloane', Probes: 4, Search Time: 0.30 µs, Collisions: 3
+Word: 'custumal', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'fibrochondrosteal', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'fullwords', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'evadible', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'tuffets', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'shirtiness', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'hydroxyapatite', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'Fabe', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'theropodous', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'IX', Probes: 3, Search Time: 0.10 µs, Collisions: 2
+Word: 'dulias', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'rubeoloid', Probes: 10, Search Time: 0.50 µs, Collisions: 9
+Word: 'home-sickness', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'superconsecrated', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'Nedi', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'myomantic', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+Word: 'actinologous', Probes: 1, Search Time: 0.10 µs, Collisions: 0
+Word: 'gelotherapy', Probes: 3, Search Time: 0.20 µs, Collisions: 2
+Word: 'untechnical', Probes: 2, Search Time: 0.20 µs, Collisions: 1
+Word: 'Blagoveshchensk', Probes: 1, Search Time: 0.20 µs, Collisions: 0
+==========================================
+
