@@ -128,7 +128,7 @@ public class LinearProbingJavaFinal
         ArrayList<String> wordsList = new ArrayList<>();
 
          // set to how many words you want to be found in search
-         int searchCount = 50; // Change this value to search 10, 20, or all 50 words
+         int searchCount = 10; // Change this value to search 10, 20, or all 50 words
 
          // 50 words to search made by group
          String[] searchWords = 
@@ -150,7 +150,7 @@ public class LinearProbingJavaFinal
 
             while (in.hasNextLine()) 
             {
-                wordsList.add(in.nextLine().trim());  // add words to list
+                wordsList.add(in.nextLine().trim());// add words to list
             }
             in.close();
         } 
@@ -162,10 +162,10 @@ public class LinearProbingJavaFinal
             return; // break when the file was not found
         }
 
-        // Convert the list to an array for further processing
+        
         String[] words = wordsList.toArray(new String[0]);
 
-        // Define the hash table size
+        // hashtablesize
         //prime .7
         int S = 765211;// size of table
         int[] hashTableprime7 = new int[S];
@@ -188,13 +188,14 @@ public class LinearProbingJavaFinal
 
         // Create output file
         PrintStream out = null;
+
         try 
         {
-            out = new PrintStream(new FileOutputStream("outputnonprime5.txt"));//creates the file output that your data will end up in you can name your file to anything 
+            out = new PrintStream(new FileOutputStream("outputNonprime510.txt"));//creates the file output that your data will end up in you can name your file to anything 
             // Redirect System.out to file
             System.setOut(out);
             System.out.println("Hashtable nonprime .5: ");
- /*              
+                
             //prime.7
             // Hash words into the table using linear probing
             hashing(hashTableprime7, collisionCountsprime7, S, words, words.length);
@@ -204,8 +205,8 @@ public class LinearProbingJavaFinal
 
             // Print the statistics after the table is displayed
             displayCollisions(hashTableprime7, collisionCountsprime7, S, out);
-*/
- /* 
+
+  
             //prime.5
             // Hash words into the table using linear probing
             hashing(hashTableprime5, collisionCountsprime5, H, words, words.length);
@@ -215,8 +216,8 @@ public class LinearProbingJavaFinal
 
             // Print the statistics after the table is displayed
             displayCollisions(hashTableprime5, collisionCountsprime5, H, out);
-*/ 
- /*             
+ 
+               
             //nonprime.7
             // Hash words into the table using linear probing
             hashing(hashTablenonprime7, collisionCountsnonprime7, K, words, words.length);
@@ -226,12 +227,12 @@ public class LinearProbingJavaFinal
 
             // Print the statistics after the table is displayed
             displayCollisions(hashTablenonprime7, collisionCountsnonprime7, K, out);
-*/
-        
+
+     
             //nonprime.5
             // Hash words into the table using linear probing
             hashing(hashTablenonprime5, collisionCountsnonprime5, O, words, words.length);
-
+ 
             // Print the final table and collision information to the file
             displayTable(hashTablenonprime5, collisionCountsnonprime5, O, out);
 
@@ -241,27 +242,29 @@ public class LinearProbingJavaFinal
 
             //turn on or off to search for words in specific table sizes and prime or not primes
             // Perform the search for these words
- /*      
+        
             //prime.7
             searchWords(hashTableprime7, searchWords, S, searchCount, out);
-*/
- /* 
+
+  
             //prime.5
             searchWords(hashTableprime5, searchWords, H, searchCount, out);
-*/
-/* 
+
+ 
             //nonprime.7
             searchWords(hashTablenonprime7, searchWords, K, searchCount, out);
- */ 
-           
+  
+            
             //nonprime.5
             searchWords(hashTablenonprime5, searchWords, O, searchCount, out);
 
         } 
+
         catch (FileNotFoundException e) 
         {
             System.out.println("Error: Output file not found or could not be created.");
         } 
+        
         finally 
         {
             if (out != null) 
