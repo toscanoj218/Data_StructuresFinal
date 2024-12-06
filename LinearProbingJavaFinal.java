@@ -191,10 +191,10 @@ public class LinearProbingJavaFinal
 
         try 
         {
-            out = new PrintStream(new FileOutputStream("outputNonprime510.txt"));//creates the file output that your data will end up in you can name your file to anything 
+            out = new PrintStream(new FileOutputStream("output.txt"));//creates the file output that your data will end up in you can name your file to anything 
             // Redirect System.out to file
             System.setOut(out);
-            System.out.println("Hashtable nonprime .5: ");
+            System.out.println("Hashtable: ");
                 
             //prime.7
             // Hash words into the table using linear probing
